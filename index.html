@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- <link rel="stylesheet" media="screen" href="css/particles.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+
+
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <!-- <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet"> -->
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded">menu</span>
+            <a href="#about" class="logo">
+                <img src="images/mk_logo.jpg" alt="logo">
+                <h2>MK_Varaprasad</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#qualification">Credentials</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+</header>
+
+<section id="about">
+
+  <div class="hero">
+      <div class="hero-info">
+        <h1 data-aos="fade-right" data-aos-duration="700" data-aos-delay="700">Hi, I'm P.Manikanta Varaprasad</h1>
+        <h2 data-aos="fade-left" data-aos-duration="700" data-aos-delay="900">I'm a Software Developer</h2>
+        <p data-aos="flip-down" data-aos-duration="700" data-aos-delay="1000">Passionate about building scalable and efficient software solutions, I specialize in full-stack development, creating seamless and user-friendly applications.</p>
+        <div class="Buttons">
+          <button class="btn" data-aos="zoom-in-right" data-aos-duration="700" data-aos-delay="1100">Hire me</button> 
+          <ul class="ul-icons">
+            <li><a href="https://www.linkedin.com/in/palavalasa-manikanta-varaprasad-0b430a2a3/" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1300"><i class='bx bxl-linkedin'></i></a></li>
+            <li><a href="https://www.youtube.com/@mk_varaprasad" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1400" ><i class='bx bxl-youtube'></i></a></li>
+            <li><a href="https://www.facebook.com/share/14yTAXggGN/" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1500"><i class='bx bxl-facebook-circle'></i></a></li>
+            <li><a href="https://github.com/Manikantavaraprasad" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1600"><i class='bx bxl-github'></i></a></li>
+            <li><a href="https://www.instagram.com/mastering_.minds/" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1200"><i class='bx bxl-instagram'></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+        <img src="images/hero_img.png" alt="person-img" >
+      </div>
+    </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</section>
+
+<section id="skills">
+
+<center><h3 style="padding-bottom: 20px;">Skills</h3></center>
+  <div class="container" style="color:#ADD8E6">
+    <div class="row text-center">
+      <div class="col-md-2 mb-4">
+        <img src="images/html5-original.svg" alt="HTML" style="width: 80px; margin-bottom: 8px;">
+        <h5>HTML</h5>
+      </div>
+      <div class="col-md-2 mb-4">
+        <img src="images/css3-original.svg" alt="CSS" style="width: 80px; margin-bottom: 8px;">
+        <h5>CSS</h5>
+      </div>
+      <div class="col-md-2 mb-4">
+        <img src="images/javascript-original.svg" alt="JavaScript" style="width: 80px; margin-bottom: 8px;">
+        <h5>JavaScript</h5>
+      </div>
+      <div class="col-md-2 mb-4">
+        <img src="images/php-original.svg" alt="PHP" style="width: 80px; margin-bottom: 8px;">
+        <h5>PHP</h5>
+      </div>
+      <div class="col-md-2 mb-4">
+        <img src="images/java-original.svg" alt="Java" style="width: 80px; margin-bottom: 8px;">
+        <h5>Java</h5>
+      </div>
+      <div class="col-md-2 mb-4">
+        <img src="images/mysql-original.svg" alt="SQL" style="width: 80px; margin-bottom: 8px;">
+        <h5>SQL</h5>
+      </div>
+      <div class="col-md-2 mb-4">
+        <img src="images/angularjs-original.svg" alt="Angular" style="width: 80px; margin-bottom: 8px;">
+        <h5>Angular</h5>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="projects">
+<center> <h3 style="padding-bottom: 20px; ">  Projects  </h3></center>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 bg-dark text-white">
+        <img src="images/tamplete-1.webp" class="card-img-top" alt="Smart Attendance system">
+        <div class="card-body">
+          <h5 class="card-title" style="color:rgb(241, 212, 125);">Smart Attendance system</h5>
+          <p class="card-text" style="color:rgb(216, 234, 242);">The Smart Attendance System is built using the Angular framework for the frontend and Spring Boot for the backend, ensuring a seamless user experience and efficient data management. It integrates an ML model for real-time face recognition, enabling automated and accurate attendance marking. The system enhances reliability with a secure, user-friendly interface and provides analytics for attendance tracking.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 bg-dark text-white">
+        <img src="images/tamplete-2.webp" class="card-img-top" alt="CBCS Tracking and Result publication">
+        <div class="card-body">
+          <h5 class="card-title" style="color:rgb(241, 212, 125);">CBCS Tracking and Result publication</h5>
+          <p class="card-text" style="color:rgb(216, 234, 242);">The CBCS Tracking and Result Publication System is developed using PHP to manage course registrations, credit calculations, and result publication efficiently. It provides a user-friendly interface for students and administrators to track academic progress and generate reports. The system ensures accurate data handling, seamless navigation, and secure access to academic records.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 bg-dark text-white">
+        <img src="images/tamplete-3.webp" class="card-img-top" alt="Home Automation Using voice command">
+        <div class="card-body">
+          <h5 class="card-title" style="color:rgb(241, 212, 125);">Home Automation Using voice command</h5>
+          <p class="card-text" style="color:rgb(216, 234, 242);">The Home Automation System integrates the Synric Pro app and Google Assistant to enable seamless voice-controlled operation of smart home devices. It allows users to control lights, fans, appliances, and security systems through voice commands, enhancing convenience and efficiency. The system ensures real-time device monitoring, automation scheduling, and secure cloud-based connectivity for a smarter living experience.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 bg-dark text-white">
+        <img src="images/tamplete-4.png" class="card-img-top" alt="Pond Monitoring System">
+        <div class="card-body">
+          <h5 class="card-title" style="color:rgb(241, 212, 125);">Pond Monitoring System</h5>
+          <p class="card-text" style="color:rgb(216, 234, 242);">Executed an IoT-based project to remotely monitor pond water parameters. The system likely involved using sensors to measure key water quality indicators such as temperature, pH, dissolved oxygen. These sensors were connected to an IoT platform that transmitted real-time data to a remote server.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</section>
+<section id="qualification">
+<center><h3 style="padding-bottom: 10px;">Credentials</h3></center>
+<div class="container section-title" data-aos="fade-up">
+        <!-- <h2>Resume</h2> -->
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+        </div>
+        <!-- <p>My Qualification details...</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-12">
+            <div class="resume-wrapper">
+              <div class="resume-block" data-aos="fade-up">
+                <h2>Work Experience</h2>
+                <p class="lead">A summary of my professional experience, including roles and responsibilities undertaken in the industry.</p>
+
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Silicon Techlabs PVT LTD</h4>
+                      <span class="period">Jan, 2025 - Current</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Software Engineer Trainee</h3>
+                      <p class="description">
+                      - Collaborating on software development projects using modern technologies.<br>
+                      - Working with backend and frontend teams to build efficient web applications.<br>
+                      - Enhancing application performance and optimizing code for scalability.<br>
+                      - Participating in code reviews and Agile development methodologies.
+                      </p>
+                    </div>
+                  </div>
+
+              <div class="resume-block" data-aos="fade-up" data-aos-delay="100">
+                <h2>My Education</h2>
+                <p class="lead">My academic background, detailing the institutions I attended and the skills I acquired.</p></p>
+
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Centurion University of Technology and Management</h4>
+                      <span class="period">2021-2025</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Bachelor of Technology</h3>
+                      <p class="description">
+                         - Specialized in VLSI design, embedded systems, and software development.<br>
+                         - Gained expertise in programming languages such as Java, Spring Boot, and Angular.<br>
+                         - Worked on multiple projects including IoT-based monitoring systems and role-based authentication systems.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">Sri Venkat Sai Junior College</h4>
+                      <span class="period">2019 - 2021</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Intermediate</h3>
+                      <p class="description">- Developed a strong foundation in mathematics and science.<br>
+                         - Excelled in problem-solving, logical reasoning, and analytical thinking.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <h4 class="company">Zilla Parsidh High School</h4>
+                      <span class="period">2019</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Matriculation</h3>
+                      <p class="description">- Developed strong fundamental skills in science and mathematics.<br>
+                      - Participated in extracurricular activities such as science fairs and technical quizzes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</section>
+
+<section id="contact">
+
+  <div class="contact-container">
+    <h2>CONTACT</h2>
+    <p> ❤️ to Connect</p>
+    <p>Let's Connect to explore more and to do wonders</p>
+
+    <div class="contact-content">
+        <div class="contact-form">
+            <form action="" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <p><strong>India ,</strong><br>Odisha, Gajapati</p>
+            <p>📞 (+91) 98434-72898</p>
+            <p>✉ vara21324@gmail.com</p>
+        </div>
+    </div>
+</div>
+
+
+    <!-- PHP Backend for Mail -->
+    <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name']);
+    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+    $message = htmlspecialchars($_POST['message']);
+
+    $mail = new PHPMailer(true);
+
+    try {
+        // Server settings
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
+        $mail->SMTPAuth = true;
+        $mail->Username = 'manikantavaraprasadpalavalasa@gmail.com'; // SMTP username
+        $mail->Password = 'cfeg sycv kmco sfvs'; // SMTP password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
+
+        // Recipients
+        $mail->setFrom($email, $name);
+        $mail->addAddress('manikantavaraprasadpalavalasa@gmail.com'); // Add a recipient
+
+        // Content
+        $mail->isHTML(true);
+        $mail->Subject = 'New Contact Form Submission';
+        $mail->Body    = "Name: $name<br>Email: $email<br>Message:<br>$message";
+        $mail->AltBody = "Name: $name\nEmail: $email\nMessage:\n$message";
+
+        $mail->send();
+        echo "<p>Message sent successfully!</p>";
+    } catch (Exception $e) {
+        echo "<p>Failed to send message. Mailer Error: {$mail->ErrorInfo}</p>";
+    }
+}
+?>
+
+
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4></h4>
+        <ul>
+          <li><a href="#about" class="logo"  style="display:flex;">
+            <div ><img src="images/mk_logo.jpg" alt="logo" style="border-radius: 50%;"></div>
+            <div style="margin-left: 15px; margin-top:35px;"><h4 >MK_Varaprasad</h4></div>
+            </a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#qualification">Credentials</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>follow Me</h4>
+        <div class="social-links">
+        <a href="https://www.linkedin.com/in/palavalasa-manikanta-varaprasad-0b430a2a3/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/share/14yTAXggGN/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://github.com/Manikantavaraprasad"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/mastering_.minds/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="footer-bottom text-center">
+    <p>&copy; All Rights Reserved.</p>
+</div>
+</footer>
+</body>
+</html>
