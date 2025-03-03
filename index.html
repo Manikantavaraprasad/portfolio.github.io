@@ -264,7 +264,6 @@
 </section>
 
 <section id="contact">
-
   <div class="contact-container">
     <h2>CONTACT</h2>
     <p> ❤️ to Connect</p>
@@ -272,12 +271,14 @@
 
     <div class="contact-content">
         <div class="contact-form">
-            <form action="" method="POST">
+            <form id="contact-form">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <textarea name="message" placeholder="Message" required></textarea>
                 <button type="submit">Send</button>
             </form>
+            <!-- Error and success messages -->
+            <div id="form-message"></div>
         </div>
 
         <div class="contact-info">
@@ -287,10 +288,8 @@
         </div>
     </div>
 </div>
-
-
-
 </section>
+
 
 <footer class="footer">
   <div class="container">
