@@ -71,7 +71,7 @@
       </div>
 
       <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
-        <img src="images/hero_img.png" alt="person-img" >
+        <img src="images/mani_img.jpeg" alt="person-img" >
       </div>
     </div>
 
